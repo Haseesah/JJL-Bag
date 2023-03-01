@@ -56,6 +56,10 @@ body {
     padding: 20px 80px;
     background: #ECF0F1;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -120,7 +124,7 @@ body {
 }
 
 #hero button {
-    background-image: url("img/button.png");
+    background-image: url("img/button1.png");
     background-color: transparent;
     color: #1dcabf;
     border: 0;
