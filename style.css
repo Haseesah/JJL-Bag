@@ -33,7 +33,7 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #b8b8b8;
+    color: #000000;
     margin: 15px 0 20px 0;
 }
 
@@ -102,7 +102,7 @@ body {
 /*Home page*/
 
 #hero {
-    background-image: url("img/canvas-bag.jpg");
+    background-image: url("img/cover.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -115,12 +115,12 @@ body {
 }
 
 #hero h4 {
-    color: rgb(83, 184, 235);
+    color: rgb(21, 21, 21);
     padding-bottom: 15px;
 }
 
 #hero h1 {
-    color: #d7e5e4;
+    color: #3a3b3b;
 }
 
 #hero button {
@@ -135,6 +135,13 @@ body {
     font-size: 15px;
 }
 
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #feature .fe-box {
     width: 180px;
     text-align: center;
@@ -147,6 +154,12 @@ body {
 
 #feature .fe-box:hover {
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+
 }
 
 #feature .fe-box h6 {
